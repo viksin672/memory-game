@@ -1,0 +1,22 @@
+
+.container {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 5px;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 5px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.card-container {
+    padding: 50px;
+    font-size: 1.5em;
+    border: 6px solid gray;
+    background-color: gray;
+    border-radius: 15px;
+
+
+}

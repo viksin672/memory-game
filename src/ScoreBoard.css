@@ -1,0 +1,61 @@
+scoreboard {
+    background-color: indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 0 15px;
+    border-radius: 0 0 10px 10px;
+}
+
+scoreboard h1 {
+    text-align: center;
+}
+
+scoreboard li {
+    list-style: none;
+}
+
+scoreboard a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+scoreboard a:hover {
+    opacity: 1;
+}
+
+scoreboard nav {
+    display: flex;
+}
+
+scoreboard nav li {
+    margin: 0 15px;
+}
+
+scoreboard nav li:first-child {
+    margin-left: 0;
+}
+
+scoreboard nav li:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 1000px) {
+    scoreboard{
+        padding: 20px 50px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    scoreboard{
+        flex-direction: column;
+    }
+
+    scoreboard h2{
+        margin-bottom: 15px;
+    }
+}
