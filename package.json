@@ -2,7 +2,7 @@
   "name": "memory-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://viksin672.github.io/react-memory-game",
+  "homepage": "https://viksin672.github.io/memory-game/.",
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
